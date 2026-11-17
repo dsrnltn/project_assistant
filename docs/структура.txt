@@ -1,0 +1,10 @@
+project/
+├── app.py              # Streamlit UI
+├── models.py           # загрузка/сохранение CSV
+├── search.py           # подсказки по подстроке
+├── export.py           # сборка наименования + выгрузка в Excel
+└── data/
+    ├── equipment.csv
+    ├── characteristics.csv
+    ├── spec_items.csv
+    └── spec_values.csv
